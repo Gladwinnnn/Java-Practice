@@ -6,9 +6,9 @@ public class ReadNumber{
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter any number: ");
 
-        int num = scan.nextInt();
+        int num = scanner.nextInt();
 
-        scan.close();
+        scanner.close();
 
         System.out.println("The number entered by user: " + num);
     }
