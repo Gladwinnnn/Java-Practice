@@ -15,4 +15,17 @@ public class Human{
         weight = w;
         height = h;
     }
+
+    public double calculateBMI(){
+        double toReturn = weight / (height * height);
+        return toReturn;
+    }
+
+    public boolean isHeavierThan(Human anotherHuman){
+        return weight - anotherHuman.getWeight() > 0;
+    }
+
+    public double getWeight(){
+        return weight;
+    }
 }
